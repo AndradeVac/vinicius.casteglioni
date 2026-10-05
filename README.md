@@ -9,3 +9,8 @@ Site estático (sem backend), pronto para a Vercel.
 
 ## Deploy (Vercel)
 Importe o repositório na Vercel — Framework: "Other", sem build, diretório raiz. Backend (Render) só será necessário se houver formulário/pedidos.
+
+## Rodar local
+- `npm start` (ou `python3 -m http.server 3000`) e abra `http://localhost:3000` no Safari, Chrome ou Firefox.
+- Para testar no celular, use o IP do computador na mesma rede: `http://IP-DO-PC:3000`.
+- Compatível com Safari 13+ (iOS e macOS).
